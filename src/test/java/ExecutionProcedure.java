@@ -21,12 +21,12 @@ public class ExecutionProcedure {
 
     @Before
     public void before(){
-        System.out.println("Executes once, before JUNIT test.");
+        System.out.println("Executes once, before a JUnit test.");
     }
 
     @After
     public void after(){
-        System.out.println("Executes once, after JUnit test.");
+        System.out.println("Executes once, after a JUnit test.");
     }
 
     @Test
