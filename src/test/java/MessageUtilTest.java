@@ -16,10 +16,12 @@ public class MessageUtilTest {
         assertEquals(message, messageUtil.printMessage());
     }
 
-    @Test
+    @Test(timeout=1000)
     public void salutationMessage() {
         System.out.println("This is printing inside a test of salutationMessage method.");
-        message = "Hello!" + "Rolando";
+        message = "Hello, " + "Rolando";
         assertEquals(message, messageUtil.salutationMessage());
     }
+
+
 }
